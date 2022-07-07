@@ -1,0 +1,91 @@
+.header {
+  position: fixed;
+  padding: 2rem 0;
+  z-index: 2;
+  top: 0;
+  width: 100%;
+  color: white;
+
+  h1 {
+    font-size: 2.5rem;
+    cursor: pointer;
+  }
+}
+.onScroll {
+  position: fixed;
+  padding: 1rem 0;
+  z-index: 2;
+  top: 0;
+  width: 100%;
+  color: black;
+  background-color: #fbc94a;
+  h1 {
+    font-size: 2.5rem;
+    cursor: pointer;
+  }
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navlist {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    font-size: 1.5rem;
+  }
+  .navbutton {
+    button {
+      border-radius: 0.5rem;
+      padding: 0.8rem 2rem;
+      font-size: 1.3rem;
+    }
+    display: flex;
+    gap: 1.5rem;
+    .sign-up {
+      background: none;
+      border: 2px solid white;
+      color: white;
+      cursor: pointer;
+    }
+    .log-in {
+      background: #106580;
+      border: white;
+      color: white;
+      cursor: pointer;
+    }
+  }
+}
+
+.header {
+  h1:hover {
+    color: orange;
+  }
+  li:hover {
+    color: orange;
+  }
+}
+.onScroll {
+  li:hover {
+    color: orangered;
+  }
+  h1:hover {
+    color: orangered;
+  }
+}
+.navbutton {
+  .sign-up:hover {
+    color: orange;
+    border: 2px solid orange;
+  }
+  .log-in:hover {
+    background-color: #35849c;
+  }
+}

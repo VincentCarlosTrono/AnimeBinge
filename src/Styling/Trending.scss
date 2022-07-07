@@ -1,0 +1,60 @@
+.feature {
+  padding: 2rem 0;
+}
+.card {
+  position: relative;
+  overflow: hidden;
+}
+.gradient {
+  position: absolute;
+  top: 98%;
+  box-shadow: -40px -65px 40px black;
+  background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(0, 0, 0));
+  width: 100vw;
+  height: 100vh;
+}
+.cards {
+  display: flex;
+  gap: 2rem;
+  overflow: hidden;
+
+  img {
+    width: 40rem;
+    height: 20rem;
+    object-fit: cover;
+    border-radius: 1rem;
+  }
+  .card-details {
+    background-blend-mode: linear-gradient(white, black);
+    position: absolute;
+    left: 2rem;
+    bottom: 0;
+    color: white;
+    li {
+      font-size: 2rem;
+      margin: 0;
+    }
+    p {
+      color: rgb(211, 211, 211);
+    }
+    .categories {
+      display: flex;
+      align-items: center;
+      gap: 10rem;
+      .rating {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        p {
+          font-weight: 700;
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+.li:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 8px gray;
+}

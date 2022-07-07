@@ -1,0 +1,111 @@
+.hero {
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../Media/DemonSlayerHero.png");
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  padding-top: 3rem;
+}
+
+.content {
+  padding-top: 18rem;
+  h1 {
+    font-size: 6.5rem;
+    color: white;
+    margin: 0;
+    font-style: normal;
+  }
+  .category {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    color: white;
+    .rating {
+      display: flex;
+      gap: 0.2rem;
+      align-items: center;
+      font-weight: 700;
+    }
+  }
+  .details {
+    max-width: 50%;
+    font-size: 1.3rem;
+    padding: 1rem 0.5rem;
+    color: white;
+    line-height: 1.8rem;
+  }
+  .herobtn {
+    .heart {
+      cursor: pointer;
+      background: none;
+      border: 2px solid white;
+    }
+    button {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      padding: 1rem;
+      border-radius: 0.5rem;
+      border: none;
+      gap: 0.4rem;
+      font-size: 1.3rem;
+      color: white;
+      background: #106580;
+    }
+    display: flex;
+    gap: 1rem;
+  }
+  .herofooter {
+    padding: 13rem 0 3.9rem 0;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    .view {
+      display: flex;
+      gap: 2rem;
+      font-size: 1.5rem;
+      color: rgb(136, 136, 136);
+      .active {
+        color: white;
+        border-bottom: 3px solid #106580;
+        border-radius: 3px;
+      }
+    }
+    .icons {
+      display: flex;
+      gap: 0.5rem;
+      .div1 {
+        background-color: #106580;
+        border-radius: 1rem;
+        width: 12rem;
+        height: 1rem;
+      }
+      div {
+        background-color: white;
+        border-radius: 1rem;
+        width: 1.2rem;
+        height: 1rem;
+      }
+    }
+  }
+}
+
+.herobtn {
+  button:hover {
+    background-color: #35849c;
+  }
+  .heart:hover {
+    transform: scale(1.1);
+  }
+}
+.view {
+  p:hover {
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+}
