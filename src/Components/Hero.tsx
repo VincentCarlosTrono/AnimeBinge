@@ -13,12 +13,14 @@ const Hero = () => {
           </div>
           <p>Category: Adventure fiction, Dark fantasy, Martial Arts</p>
         </div>
-        <p className="details">
-          Demon Slayer: Kimetsu no Yaiba is a Japanese manga series written and
-          illustrated by Koyoharu Gotouge. It follows teenage Tanjiro Kamado,
-          who strives to become a demon slayer after his family was slaughtered
-          and hi yunger sister Nezuko turned into a demon
-        </p>
+        <div className="details">
+          <p>
+            Demon Slayer: Kimetsu no Yaiba is a Japanese manga series written
+            and illustrated by Koyoharu Gotouge. It follows teenage Tanjiro
+            Kamado, who strives to become a demon slayer after his family was
+            slaughtered and hi yunger sister Nezuko turned into a demon
+          </p>
+        </div>
         <div className="herobtn">
           <button>
             <box-icon color="white" name="right-arrow" type="solid" />

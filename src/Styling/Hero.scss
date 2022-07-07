@@ -6,7 +6,9 @@
     ),
     url("../Media/DemonSlayerHero.png");
   background-repeat: no-repeat;
-  background-size: 100vw;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
   padding-top: 3rem;
 }
 
@@ -31,11 +33,11 @@
     }
   }
   .details {
-    max-width: 50%;
     font-size: 1.3rem;
     padding: 1rem 0.5rem;
     color: white;
     line-height: 1.8rem;
+    padding-right: 50%;
   }
   .herobtn {
     .heart {
@@ -107,5 +109,68 @@
     color: white;
     border-radius: 3px;
     cursor: pointer;
+  }
+}
+@media only screen and(max-width: 700px) {
+  .hero {
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("../Media/DemonSlayerHero.png");
+    background-repeat: no-repeat;
+    padding-top: 3rem;
+  }
+  .content {
+    .details {
+      color: white;
+      line-height: 1.5rem;
+      padding-right: 5rem;
+      p {
+        font-size: 0.8rem;
+      }
+    }
+    .herobtn {
+      .heart {
+        cursor: pointer;
+        background: none;
+        border: 2px solid white;
+      }
+      button {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        font-size: 1rem;
+      }
+    }
+    .herofooter {
+      padding: 3rem 0 1rem 0;
+      .view {
+        p {
+          font-size: 1rem;
+        }
+      }
+      .icons {
+        .div1 {
+          width: 1.5rem;
+        }
+      }
+    }
+    padding-top: 9rem;
+    h1 {
+      font-size: 3rem;
+    }
+  }
+  .category {
+    gap: 0.1rem;
+    .rating {
+      font-size: 0.8rem;
+    }
+    p {
+      font-size: 0.6rem;
+    }
   }
 }

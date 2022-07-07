@@ -29,7 +29,9 @@ const Header = () => {
   return (
     <div className={`grid-container ${scroll ? "onScroll" : "header"}`}>
       <div className="container navbar">
-        <h1>AnimeBinge</h1>
+        <a href="/">
+          <h1>AnimeBinge</h1>
+        </a>
         <div className="navlist">
           <ul>
             {lists.map((list: HeaderListInterface) => {

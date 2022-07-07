@@ -58,3 +58,32 @@
   cursor: pointer;
   box-shadow: 1px 1px 8px gray;
 }
+@media only screen and(max-width: 700px) {
+  .cards {
+    img {
+      width: 25rem;
+      height: 15rem;
+    }
+    .card-details {
+      left: 1rem;
+      li {
+        font-size: 1rem;
+        margin: 0;
+      }
+      p {
+        font-size: 0.5rem;
+      }
+      .categories {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        .rating {
+          padding: 0 0.3rem;
+          p {
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
+}
