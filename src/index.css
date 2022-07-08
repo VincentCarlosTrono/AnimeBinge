@@ -4,7 +4,6 @@
   scroll-behavior: smooth;
   transition: 0.2s;
   box-sizing: border-box;
-  /* border: 1px dashed green; */
 }
 p {
   margin: 0;

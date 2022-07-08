@@ -1,12 +1,12 @@
 import React from "react";
 import ReusableComponent from "../Components/ReusableComponent";
-import "../Styling/Trending.scss";
+import { Splide, SplideSlide } from "@splidejs/react-splide";
+import { Link } from "react-router-dom";
 import Aot from "../Media/Aot.jpg";
 import Jujutsu from "../Media/jujutsuKaisen.jpg";
 import OnePiece from "../Media/OnePiece.webp";
-import { Splide, SplideSlide } from "@splidejs/react-splide";
+import "../Styling/Trending.scss";
 import "@splidejs/react-splide/css";
-import { Link } from "react-router-dom";
 import { WeeklyTrend, WeeklyTrendInterface } from "../types";
 
 const Trending = () => {

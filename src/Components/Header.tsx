@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
+import NavBar from "./NavBar";
 import "../Styling/Header.scss";
 import { HeaderList, HeaderListInterface } from "../types";
-import NavBar from "./NavBar";
 
 const Header = () => {
   const lists: HeaderList = [

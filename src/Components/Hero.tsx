@@ -8,7 +8,7 @@ const Hero = () => {
         <h1>Kimetsu no Yaiba</h1>
         <div className="category">
           <div className="rating">
-            <box-icon color="orange" type="solid" name="star"></box-icon>
+            <box-icon color="orange" type="solid" name="star" />
             <p>5.0</p>
           </div>
           <p>Category: Adventure fiction, Dark fantasy, Martial Arts</p>

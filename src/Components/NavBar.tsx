@@ -31,7 +31,7 @@ const NavBar = () => {
             setIsOpen(!isOpen);
           }}
         >
-          <box-icon color="white" type="solid" name="grid-alt"></box-icon>
+          <box-icon color="white" type="solid" name="grid-alt" />
         </button>
       </div>
       <div className="menuList">

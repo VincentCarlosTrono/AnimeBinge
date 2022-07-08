@@ -1,18 +1,17 @@
 import React, { useEffect } from "react";
 import "./App.css";
-import Throwback from "./Components/Throwback";
-import Trending from "./Pages/Trending";
 import Home from "./Pages/Home";
-import { Routes, Route } from "react-router-dom";
+import Trending from "./Pages/Trending";
+import Throwback from "./Components/Throwback";
 import AttackonTitan from "./WeeklyTrend/AttackonTitan";
 import AOS from "aos";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   useEffect(() => {
     AOS.init({
       easing: "ease-out-cubic",
-      once: false,
-      // mirror: true,
+      once: true,
       offset: 120,
       duration: 2000,
     });
