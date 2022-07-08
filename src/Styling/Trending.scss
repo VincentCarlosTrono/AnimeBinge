@@ -22,7 +22,6 @@
     width: 40rem;
     height: 20rem;
     object-fit: cover;
-    border-radius: 1rem;
   }
   .card-details {
     background-blend-mode: linear-gradient(white, black);
@@ -65,22 +64,26 @@
       height: 15rem;
     }
     .card-details {
-      left: 1rem;
+      left: 0;
       li {
         font-size: 1rem;
         margin: 0;
       }
       p {
-        font-size: 0.5rem;
+        font-size: 0.7rem;
+        padding: 0.2rem 0;
       }
       .categories {
-        display: flex;
+        display: block;
         align-items: center;
         gap: 1rem;
+        margin: 0;
         .rating {
           padding: 0 0.3rem;
+          justify-content: left;
           p {
             font-weight: 500;
+            font-size: 0.8rem;
           }
         }
       }

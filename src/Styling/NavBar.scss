@@ -1,0 +1,87 @@
+.navbar {
+  .title {
+    display: none;
+  }
+}
+.navbar-menu {
+  background: none;
+  border: none;
+  display: none;
+}
+@media only screen and(max-width: 700px) {
+  .navbar-menu {
+    display: block;
+    gap: 16rem;
+  }
+  .navbar {
+    .title {
+      display: block;
+    }
+    .menuList {
+      ul {
+        position: absolute;
+        left: 0%;
+        top: 80%;
+        background-color: orange;
+        width: 100vw;
+        height: 32vh;
+        animation-name: for-ul;
+        animation-duration: 0.5s;
+        padding: 0;
+        display: block;
+        align-items: center;
+        justify-content: center;
+
+        li {
+          list-style: none;
+          padding: 1rem;
+          font-weight: 700;
+          text-align: center;
+          animation-name: for-li;
+          animation-duration: 1s;
+        }
+        .menu-btn {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 0.8rem;
+          gap: 0.3rem;
+          animation-name: for-li;
+          animation-duration: 1s;
+
+          button {
+            padding: 0.2rem 1rem;
+            font-weight: 700;
+          }
+          .sign-up {
+            background: none;
+            border: 2px solid white;
+            color: white;
+          }
+          .log-in {
+            padding: 0.3rem 1.2rem;
+            background-color: #106580;
+            color: white;
+            border: none;
+          }
+        }
+      }
+    }
+  }
+}
+@keyframes for-ul {
+  from {
+    height: 0;
+  }
+  to {
+    height: 32vh;
+  }
+}
+@keyframes for-li {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}

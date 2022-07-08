@@ -7,7 +7,7 @@
     url("../Media/DemonSlayerHero.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 100%;
   width: 100vw;
   padding-top: 3rem;
 }
@@ -141,9 +141,10 @@
         cursor: pointer;
         display: flex;
         align-items: center;
-        padding: 1rem;
+        padding: 0.5rem;
         border-radius: 0.5rem;
-        font-size: 1rem;
+        font-size: 0.7rem;
+        font-weight: 700;
       }
     }
     .herofooter {

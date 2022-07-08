@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "../Styling/Header.scss";
 import { HeaderList, HeaderListInterface } from "../types";
+import NavBar from "./NavBar";
 
 const Header = () => {
   const lists: HeaderList = [
@@ -32,6 +33,9 @@ const Header = () => {
         <a href="/">
           <h1>AnimeBinge</h1>
         </a>
+        <div className="menu-btn">
+          <NavBar />
+        </div>
         <div className="navlist">
           <ul>
             {lists.map((list: HeaderListInterface) => {

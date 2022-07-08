@@ -6,6 +6,9 @@
   box-sizing: border-box;
   /* border: 1px dashed green; */
 }
+p {
+  margin: 0;
+}
 
 html,
 body {

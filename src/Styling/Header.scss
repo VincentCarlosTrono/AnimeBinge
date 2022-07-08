@@ -3,11 +3,12 @@
   padding: 2rem 0;
   z-index: 2;
   top: 0;
-  width: 100%;
+  width: 100vw;
   color: white;
   h1 {
     font-size: 2.5rem;
     cursor: pointer;
+    display: block;
   }
 }
 .onScroll {
@@ -15,18 +16,23 @@
   padding: 1rem 0;
   z-index: 2;
   top: 0;
-  width: 100%;
+  width: 100vw;
   color: black;
   background-color: #fbc94a;
   h1 {
     font-size: 2.5rem;
     cursor: pointer;
+    display: block;
   }
 }
 .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  .menu-btn {
+    display: none;
+    align-items: center;
+  }
 }
 .navlist {
   display: flex;
@@ -39,6 +45,7 @@
     display: flex;
     gap: 3rem;
     font-size: 1.5rem;
+    padding: 0;
   }
   .navbutton {
     button {
@@ -95,15 +102,23 @@
     h1 {
       font-size: 1.5rem;
       cursor: pointer;
+      display: none;
     }
   }
   .onScroll {
     h1 {
       font-size: 1.5rem;
       cursor: pointer;
+      display: none;
     }
   }
   .navlist {
     display: none;
+  }
+  .navbar {
+    width: 100%;
+    .menu-btn {
+      display: block;
+    }
   }
 }

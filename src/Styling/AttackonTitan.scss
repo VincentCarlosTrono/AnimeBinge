@@ -105,3 +105,62 @@ img {
     box-shadow: 2px 5px 8px gray;
   }
 }
+
+@media only screen and(max-width: 700px) {
+  .AttackOnTitan {
+    overflow: hidden;
+    gap: 0.2rem;
+  }
+  .aotOverview {
+    img {
+      height: 70%;
+      width: 50vw;
+      object-fit: cover;
+    }
+    p {
+      font-size: 0.8rem;
+    }
+    .details {
+      top: 48%;
+      left: 2%;
+      z-index: 0;
+      padding-left: 0.5rem;
+      .category {
+        gap: 0;
+        display: block;
+        p {
+          font-size: 0.8rem;
+          margin: 0;
+        }
+      }
+    }
+  }
+  .forgradient {
+    opacity: 90%;
+    top: 55%;
+    height: 15%;
+    width: 50vw;
+  }
+  .episodes {
+    gap: 2rem;
+    font-size: 0.8rem;
+  }
+  .aotCards {
+    gap: 1rem;
+
+    .aotCard {
+      gap: 0.5rem;
+      img {
+        border-radius: 1rem;
+        width: 15vw;
+        height: 17vh;
+        object-fit: cover;
+      }
+      .details {
+        color: rgb(122, 122, 122);
+        font-weight: 400;
+        font-size: 0.7rem;
+      }
+    }
+  }
+}

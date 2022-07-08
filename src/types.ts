@@ -24,3 +24,8 @@ export interface AotEpisodeInterface {
   details: string;
 }
 export type AotEpisode = Array<AotEpisodeInterface>;
+
+export interface IsOpenInterface {
+  setIsOpen?: React.SetStateAction<boolean>;
+  isOpen: boolean;
+}
